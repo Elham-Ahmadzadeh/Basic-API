@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section class="sec1">
+
+    <input type="text" id="searchInput">
+
+    <button class="addBook" > Lägg till boken </button>
+
+    </section>
+    <article>
+        <p id="showMessage" ></p>
+   </article>
+<section>
+    <button class="removeAllBooks" >
+         Ta bort böcker
+    </button>
+</section>
+   <section id="books">
+       <!-- all books gonna be here -->
+   </section>
+    <section class="sec2">
+
+    <button class="getAllbooks" > Hämta </button>
+
+    </section>
+
+    <style>
+
+        .sec1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .sec2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;  
+            margin-top: 10px;
+        }
+
+        input {
+            width: 30%;
+          
+        }
+
+
+    </style>
+    <script src="/API/app.js"></script>
+</body>
+</html>
